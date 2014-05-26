@@ -10,8 +10,8 @@ Prerequisites
 * [npm](https://www.npmjs.org/)
 * [Bower](http://bower.io/)
 
-Install
--------
+Installation
+------------
 
 Clone the project
 
