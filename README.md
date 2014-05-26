@@ -10,6 +10,30 @@ Prerequisites
 * [npm](https://www.npmjs.org/)
 * [Bower](http://bower.io/)
 
+Install
+-------
+
+Clone the project
+
+```bash
+git clone https://github.com/Fundbase/frontend-project.git && cd frontend-project/
+```
+
+Install the dependencies
+
+```bash
+npm install
+```
+
+Start the server
+
+```bash
+node server.js
+```
+
+Visit [http://localhost:8080]()
+
+
 Project description
 -------------------
 
