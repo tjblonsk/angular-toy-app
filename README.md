@@ -25,6 +25,21 @@ You can use any library/framework/plugin you want.
 
 Please use some template library (http://handlebarsjs.com/, http://mustache.github.io/, ...).
 
-The app must be a single page JS-based application. That means that I load just one html file, if you want to add some navigation you have to implement it via JS.
+The application must be single page and JS-based. That means that I load just one html file, if you want to add some navigation you have to implement it via JS.
 
 If you can display discounts for pizzas it's a plus.
+
+Evaluation
+----------
+
+Our goal is to find answers to those questions:
+
+* Do you understand the JavaScript language and more in general web technologies?
+* Can you judge which library/framework is the best fit for a job and use it correctly?
+* Can you can design interfaces that are clear and easy to use?
+* Do you master your working environment?
+
+Due to the limited time consider the followings:
+
+* It is NOT important to have a fully functional application at the end.
+* We'll develop just for the latest version of Google Chrome.
