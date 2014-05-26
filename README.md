@@ -19,7 +19,7 @@ First of all we'll display the list of pizzas with ingredients and prices. Data 
 
 When the user chooses something from the list the order summary will update dynamically.
 
-There will be a button to confirm the order. An ajax call will be performed to `server/order.json` and the result will be displayed as a message like this: "Your order will be delivered in x hours".
+There will be a button to confirm the order. An ajax call will be performed to `server/order.json` and the result will be displayed as a message like this: "Your order will be delivered in x minutes".
 
 You can use any library/framework/plugin you want.
 
