@@ -36,7 +36,7 @@ Our goal is to find answers to those questions:
 
 * Do you understand the JavaScript language and more in general web technologies?
 * Can you judge which library/framework is the best fit for a job and use it correctly?
-* Can you can design interfaces that are clear and easy to use?
+* Can you design interfaces that are clear and easy to use?
 * Do you master your working environment?
 
 Due to the limited time consider the followings:
