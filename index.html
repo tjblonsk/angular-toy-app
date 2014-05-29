@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="Fundbase">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="app/css/app.css"/>
+  <title>Order good pizza</title>
+</head>
+<body>
+  <h1>It works!</h1>
+
+  <div class="main-content">
+    <div class="main-pizzas-list" ng-controller="PizzasController">
+      <div class="grid">
+<!--         <div ng-repeat="pizza in pizzas">
+            <fb-pizza pizza="pizza">{{pizza.name}}</fb-pizza>
+        </div> -->
+        <span>{{pizza.name}}</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://code.angularjs.org/angular-1.0.0rc3.min.js"></script>
+  <script src="http://documentcloud.github.com/underscore/underscore-min.js"></script>
+  <script type="text/javascript" src="app/js/app.js"></script>
+  <script type="text/javascript" src="app/js/services.js"></script>
+  <script type="text/javascript" src="app/js/controllers.js"></script>
+  <script type="text/javascript" src="app/js/filters.js"></script>
+  <script type="text/javascript" src="app/js/directives.js"></script>
+</body>
+</html>
