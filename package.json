@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Fundbase/frontend-project",
   "devDependencies": {
-    "connect": "^2.17.1"
+    "connect": "^2.17.1",
+    "karma-jasmine": "~0.1.5",
+    "karma-chrome-launcher": "~0.1.4"
   }
 }
