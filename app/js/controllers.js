@@ -1,9 +1,11 @@
 (function() {
   "use strict";
 
-  angular.module('Fundbase').controller('PizzasController', function($scope) {
-    $scope.pizza = {name: 'Pepperoni'}
-  });
+  angular.module('Fundbase.controllers', [])
+    .controller('PizzasController', ['$scope', function($scope) {
+      $scope.pizza = {name: 'Pepperoni'}
+
+    }]);
 
 
 })();
