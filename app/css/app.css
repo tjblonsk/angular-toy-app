@@ -1,0 +1,35 @@
+.main-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.main-pizzas-list {
+  float: left;
+  height: 100%;
+  padding-left: 25px;
+  width: 40%;
+}
+
+.order {
+  float: left;
+  height: 100%;
+  padding-left: 50px;
+  width: 40%;
+}
+
+.pizza {
+  font-family: helvetica;
+  padding-bottom: 15px;
+  -webkit-transition: background 0.3s linear;
+}
+
+.pizza:hover {
+  cursor:pointer;
+  background-color: pink;
+}
+
+.item {
+  font-family: helvetica;
+  padding-bottom: 15px;
+}

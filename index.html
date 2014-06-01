@@ -6,17 +6,32 @@
   <title>Order good pizza</title>
 </head>
 <body>
-  <h1>It works!</h1>
 
   <div class="main-content">
+
     <div class="main-pizzas-list" ng-controller="PizzasController">
-      <div class="grid">
-<!--         <div ng-repeat="pizza in pizzas">
-            <fb-pizza pizza="pizza">{{pizza.name}}</fb-pizza>
-        </div> -->
-        <span>{{pizza.name}}</span>
-      </div>
+      <h3>Select Pizzas</h3>
+
+        <div class="pizza" ng-repeat="pizza in pizzas">
+            <fb-pizza href="" ng-click="addToOrder(pizza)">{{pizza.name}} || {{pizza.price | currency:"USD$"}}</fb-pizza>
+        </div>
+
     </div>
+
+      <div class="order" ng-controller="OrderController">
+        <h3>Your Order</h3>
+        <div ng-hide="confirm" class="item" ng-repeat="item in items">
+          {{item.name}}
+        </div>
+
+        <fb-order ng-show="items.length > 0" ng-click="submitOrder()">Order</fb-order>
+
+        <div class="order" ng-show="confirm">
+          Your order will be delivered in {{orderTime.deliveryTime}} minutes!
+        </div>
+
+      </div>
+
   </div>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -26,7 +41,6 @@
   <script type="text/javascript" src="app/js/app.js"></script>
   <script type="text/javascript" src="app/js/services.js"></script>
   <script type="text/javascript" src="app/js/controllers.js"></script>
-  <script type="text/javascript" src="app/js/filters.js"></script>
   <script type="text/javascript" src="app/js/directives.js"></script>
 </body>
 </html>
